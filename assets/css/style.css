@@ -4,17 +4,17 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgba(238, 238, 247, 1);
+  --primary: rgb(231, 230, 234);
+  --secondary: rgb(142, 109, 135);
+  --tertiary: rgb(62, 61, 81);
+  --dark: rgb(74, 60, 66);
+  --light: rgb(25, 23, 28);
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: var(--primary);
   background-color: var(--light);
   line-height: 1.5;
@@ -88,7 +88,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/bokeh.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -113,6 +113,15 @@ main {
   font-size: 2.3rem;
   line-height: 1.2;
   display: inline;
+}
+
+#myself{
+height: 400px;
+max-width: 50%;
+}
+
+h2{
+  font-size: 30px;
 }
 
 .page-wrapper {
@@ -220,12 +229,12 @@ main {
 }
 
 /* portfolio project images */
-.run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
+.projx {
+  background-image: url("../images/rednumbers.jpg");
 }
 
-.led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
+.calc {
+  background-image: url("../images/Statistical-calculator.png");
 }
 
 .react-calc {
@@ -236,8 +245,8 @@ main {
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
-.surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+.arcade {
+  background-image: url("../images/arcade.jpg");
 }
 
 /* end portfolio project images */
